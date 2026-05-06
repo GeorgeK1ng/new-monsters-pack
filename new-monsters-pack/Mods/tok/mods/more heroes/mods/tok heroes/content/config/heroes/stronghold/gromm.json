@@ -39,7 +39,7 @@
 				"attack" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack",
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "cr_bugbear",
@@ -55,7 +55,7 @@
 				"speed" : {
 					"type" : "STACKS_SPEED",
 					"val" : 2,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "cr_bugbear",
