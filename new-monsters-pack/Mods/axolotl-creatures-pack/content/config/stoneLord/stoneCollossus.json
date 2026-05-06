@@ -18,11 +18,7 @@
 			"spellCaster" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "earthquake",
-				"val" : 1,
-				"addInfo" : [
-					1,
-					2
-				]
+				"val" : 1
 			}
 		},
 		"stackExperience" : [

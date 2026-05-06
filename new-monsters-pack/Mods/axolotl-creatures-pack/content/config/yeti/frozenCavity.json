@@ -5,7 +5,7 @@
 				"name" : "Frozen Cavity",
 				"creatures" : [
 					[
-						"yeti"
+						"acpYeti"
 					]
 				],
 				"guards" : true,

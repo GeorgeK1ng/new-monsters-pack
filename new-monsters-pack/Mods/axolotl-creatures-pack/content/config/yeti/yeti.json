@@ -1,5 +1,5 @@
 {
-	"yeti" : {
+	"acpYeti" : {
 		"abilities" : {
 			"morale" : {
 				"type" : "MORALE",
@@ -8,7 +8,7 @@
 			},
 			"fear" : {
 				"type" : "FEARFUL",
-				"val" : 10,
+				"val" : 15,
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"description" : "PLACEHOLDER",
