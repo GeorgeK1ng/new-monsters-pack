@@ -10,7 +10,7 @@
 			"templates" : {
 				"default" : {
 					"animation" : "classes/explorer/adventure.def",
-					"editorAnimation" : "ruins/classes/explorer/editor.def"
+					"editorAnimation" : "classes/explorer/editor.def"
 				}
 			}
 		},

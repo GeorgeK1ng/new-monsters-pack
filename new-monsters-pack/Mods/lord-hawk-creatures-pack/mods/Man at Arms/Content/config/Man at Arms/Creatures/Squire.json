@@ -50,7 +50,7 @@
 		"abilities" : {
 			"stun" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "stun",
+				"subtype" : "hstun",
 				"val" : 10,
 				"addInfo" : [
 					3,

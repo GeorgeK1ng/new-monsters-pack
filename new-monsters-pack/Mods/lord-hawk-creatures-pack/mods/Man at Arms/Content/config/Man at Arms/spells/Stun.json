@@ -1,6 +1,6 @@
 {
-	"stun" : {
-		"type" : "combat",
+	"hstun" : {
+		"type" : "ability",
 		"name" : "Stun",
 		"school" : {
 			"air" : true,
@@ -10,12 +10,8 @@
 		},
 		"level" : 4,
 		"power" : 10,
-		"defaultGainChance" : 10,
+		"defaultGainChance" : 0,
 		"gainChance" : {
-			"castle" : 10,
-			"tower" : 10,
-			"necropolis" : 10,
-			"conflux" : 10
 		},
 		"animation" : {
 			"affect" : [

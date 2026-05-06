@@ -47,7 +47,7 @@
 		"abilities" : {
 			"stun" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "stun",
+				"subtype" : "hstun",
 				"val" : 20,
 				"addInfo" : [
 					3,
@@ -57,7 +57,7 @@
 			},
 			"immuneToStun" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "stun"
+				"subtype" : "hstun"
 			}
 		}
 	}

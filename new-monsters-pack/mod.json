@@ -1,13 +1,16 @@
 {
 	"name" : "New Monsters Pack",
 	"author" : "Various",
-	"version" : "1.4.8",
+	"version" : "1.4.9",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.4.9" : [
+			"Fixes for console warnings (may break saves and maps)."
+		],
 		"1.4.8" : [
 			"Additional icons for creatures abilities by Kurek",
 			"Some fixes in creature abilities"

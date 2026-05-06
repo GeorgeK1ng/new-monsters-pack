@@ -38,34 +38,28 @@
 			"bonuses" : {
 				"attack" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack",
-					"limiters" : [
+					"subtype" : "attack",
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [
-								"cr_bugbear",
-								true
-							]
+							"creature" : "cr_bugbear",
+							"includeUpgrades" : true
 						}
 					],
 					"updater" : {
 						"type" : "GROWS_WITH_LEVEL",
-						"parameters" : [
-							18,
-							4
-						]
+						"valPer20" : 18,
+						"stepSize" : 4
 					}
 				},
 				"speed" : {
 					"type" : "STACKS_SPEED",
 					"val" : 2,
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [
-								"cr_bugbear",
-								true
-							]
+							"creature" : "cr_bugbear",
+							"includeUpgrades" : true
 						}
 					]
 				}

@@ -3,7 +3,7 @@
 	"description" : "Add more heroes with HOTA dependency",
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
-	"version" : "1.0,0",
+	"version" : "1.0.0",
 	"modType" : "Heroes",
 	"keepDisabled" : true,
 	"depends" : [
