@@ -662,9 +662,9 @@
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.fieryeye.name" : "Ohnivé oko",
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.redparalyze.name" : "Červená paralýza",
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.cyclops_warrior.crushingblow.name" : "Zničující úder",
-	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.stun.description.advanced" : "{Lepší omráčení}\r\n\r\nNepřátelská jednotka nemůže útočit ani provést odvetný útok po dobu 2 kol.",
-	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.stun.description.basic" : "{Základní omráčení}\r\n\r\nNepřátelská jednotka nemůže útočit ani provést odvetný útok po dobu 1 kola.",
-	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.stun.description.expert" : "{Expert omráčení}\r\n\r\nNepřátelská jednotka nemůže útočit ani provést odvetný útok po dobu 3 kol.",
-	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.stun.description.none" : "{Omráčení}\r\n\r\nNepřátelská jednotka nemůže útočit ani provést odvetný útok po dobu 1 kola.",
-	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.stun.name" : "Omráčení"
+	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.hstun.description.advanced" : "{Lepší omráčení}\r\n\r\nNepřátelská jednotka nemůže útočit ani provést odvetný útok po dobu 2 kol.",
+	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.hstun.description.basic" : "{Základní omráčení}\r\n\r\nNepřátelská jednotka nemůže útočit ani provést odvetný útok po dobu 1 kola.",
+	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.hstun.description.expert" : "{Expert omráčení}\r\n\r\nNepřátelská jednotka nemůže útočit ani provést odvetný útok po dobu 3 kol.",
+	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.hstun.description.none" : "{Omráčení}\r\n\r\nNepřátelská jednotka nemůže útočit ani provést odvetný útok po dobu 1 kola.",
+	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.hstun.name" : "Omráčení"
 }

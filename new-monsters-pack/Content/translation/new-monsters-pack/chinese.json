@@ -654,9 +654,9 @@
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.fieryeye.name" : "烈焰之眼",
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.redparalyze.name" : "血色麻痹",
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.cyclops_warrior.crushingblow.name" : "毁灭重击",
-	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.stun.description.advanced" : "{中级晕击}\r\n\r\n目标敌方生物在2个回合内无法攻击或反击。",
-	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.stun.description.basic" : "{初级晕击}\r\n\r\n目标敌方生物在1个回合内无法攻击或反击。",
-	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.stun.description.expert" : "{高级晕击}\r\n\r\n目标敌方生物在3个回合内无法攻击或反击。",
-	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.stun.description.none" : "{晕击}\r\n\r\n目标敌方生物在1个回合内无法攻击或反击。",
-	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.stun.name" : "晕击"
+	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.hstun.description.advanced" : "{中级晕击}\r\n\r\n目标敌方生物在2个回合内无法攻击或反击。",
+	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.hstun.description.basic" : "{初级晕击}\r\n\r\n目标敌方生物在1个回合内无法攻击或反击。",
+	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.hstun.description.expert" : "{高级晕击}\r\n\r\n目标敌方生物在3个回合内无法攻击或反击。",
+	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.hstun.description.none" : "{晕击}\r\n\r\n目标敌方生物在1个回合内无法攻击或反击。",
+	"spell.new-monsters-pack.lord-hawk-creatures-pack.man at arms.hstun.name" : "晕击"
 }
