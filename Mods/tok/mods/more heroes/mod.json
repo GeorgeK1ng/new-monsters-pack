@@ -1,6 +1,10 @@
 {
 	"name" : "More Heroes",
 	"description" : "New heroes",
+	"czech" : {
+		"name" : "Více hrdinů",
+		"description" : "Noví hrdinové."
+	},
 	"author" : "Fiorin",
 	"contact" : "https://fior.in",
 	"version" : "1.0.0",

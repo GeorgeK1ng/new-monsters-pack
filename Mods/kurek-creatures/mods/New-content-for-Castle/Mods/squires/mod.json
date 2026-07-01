@@ -1,6 +1,10 @@
 {
 	"name" : "Squires",
 	"description" : "Mod which adds 2 new units, Squire and Man at arms including their dwellings and creature banks. Also adds new spell Stun. This mod is a modified version of Man at Arms Hawk mod, it changes a few things in these units, castle faction added plus new dwelling.",
+	"czech" : {
+		"name" : "Panoši",
+		"description" : "Nové jednotky – Panoš a Zbrojnoš. Jedná se o hradní pěší bojovníky vyzbrojené cepy, kteří mohou omračovat nepřátele."
+	},
 	"author" : "Mod: Kurek and Lord Hawk. Graphics: Alex-ander, FCst1, Andruids, Lord Hawk.",
 	"contact" : "http://www.forum.acidcave.net/profile.php?UID=4121  or  https://discord.com/channels/298106089885401090/298110850420441094",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",

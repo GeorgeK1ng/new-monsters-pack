@@ -1,6 +1,10 @@
 {
 	"name" : "Scholar",
 	"description" : "New units - Scholar and Lecturer. Scholars have devoted much of their time to the study of things past, giving them much insight into events to come. Did you know they can also fight? The mod also adds 1 castle hero, Xanthor the Cleric.",
+	"czech" : {
+		"name" : "Učenec",
+		"description" : "Nové jednotky – Učenec a Lektor. Učenci věnovali mnoho času studiu minulosti, díky čemuž lépe chápou události budoucí. A věděli jste, že umí také bojovat? Mod přidává také jednoho hradního hrdinu, klerika Xanthora."
+	},
 	"author" : "Kurek",
 	"contact" : "http://www.forum.acidcave.net/profile.php?UID=4121  or  https://discord.com/channels/298106089885401090/298110850420441094",
 	"version" : "1.0",

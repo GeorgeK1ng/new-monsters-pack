@@ -1,6 +1,10 @@
 {
 	"name" : "More Hota Heroes",
 	"description" : "Add more heroes with HOTA dependency",
+	"czech" : {
+		"name" : "Více HotA hrdinů",
+		"description" : "Přidává další hrdiny se závislostí na HotA obsahu."
+	},
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
 	"version" : "1.0.0",

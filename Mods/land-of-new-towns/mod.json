@@ -1,6 +1,10 @@
 {
 	"name" : "Land Of New Town Creatures",
 	"description" : "Neutral unit. Beware! The stats may be completely different from Land Of New Towns!",
+	"czech" : {
+		"name" : "Jednotky z Land of New Town",
+		"description" : "Neutrální jednotka. Pozor! Statistiky se mohou zcela lišit od verze v Land Of New Towns!"
+	},
 	"author" : "Land Of New Town Team",
 	"version" : "1.0.0",
 	"contact" : "",

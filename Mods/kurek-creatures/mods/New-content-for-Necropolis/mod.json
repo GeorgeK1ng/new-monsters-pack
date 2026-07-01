@@ -2,6 +2,10 @@
 	"author" : "Kurek",
 	"contact" : "",
 	"description" : "Adds new Necropolis creatures",
+	"czech" : {
+		"name" : "Nový obsah pro Nekropoli",
+		"description" : "Přidává nové jednotky Nekropole."
+	},
 	"modType" : "Creatures",
 	"name" : "New Content for Necropolis",
 	"version" : "1.0"

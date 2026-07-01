@@ -1,6 +1,10 @@
 {
 	"name" : "More Creatures",
 	"description" : "Creatures added to the core game.",
+	"czech" : {
+		"name" : "Více jednotek",
+		"description" : "Jednotky přidané do základní hry."
+	},
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
 	"version" : "0.11",

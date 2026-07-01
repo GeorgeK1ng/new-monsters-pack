@@ -1,6 +1,10 @@
 {
 	"name" : "More Vanilla Heroes",
 	"description" : "Add more heroes with no further dependencies",
+	"czech" : {
+		"name" : "Více základních hrdinů",
+		"description" : "Přidává další hrdiny bez dalších závislostí."
+	},
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
 	"version" : "1.1",
