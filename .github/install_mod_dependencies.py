@@ -12,19 +12,11 @@ from pathlib import Path
 
 
 def find_mod_json_files(root: Path) -> list:
-    """Find mod.json in root and in Mods/*/mod.json (case-insensitive)."""
-    results = []
-    for entry in root.iterdir():
-        if entry.is_file() and entry.name.lower() == "mod.json":
-            results.append(entry)
-    for entry in root.iterdir():
-        if entry.is_dir() and entry.name.lower() == "mods":
-            for subdir in entry.iterdir():
-                if subdir.is_dir():
-                    for f in subdir.iterdir():
-                        if f.is_file() and f.name.lower() == "mod.json":
-                            results.append(f)
-    return results
+    """Find every mod.json below root (case-insensitive)."""
+    return sorted(
+        (path for path in root.rglob("*") if path.is_file() and path.name.lower() == "mod.json"),
+        key=lambda path: path.as_posix().lower(),
+    )
 
 
 def collect_dependencies(root: Path) -> set:
