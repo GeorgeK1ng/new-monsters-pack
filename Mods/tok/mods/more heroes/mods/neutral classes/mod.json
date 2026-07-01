@@ -1,6 +1,10 @@
 {
 	"name" : "Neutral classes",
 	"description" : "Add some neutral classes",
+	"czech" : {
+		"name" : "Neutrální třídy",
+		"description" : "Přidává neutrální třídy hrdinů."
+	},
 	"author" : "Fiorin",
 	"contact" : "https://fior.in",
 	"version" : "1.0.0",

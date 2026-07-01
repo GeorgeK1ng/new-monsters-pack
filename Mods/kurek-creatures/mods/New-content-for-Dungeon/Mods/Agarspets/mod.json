@@ -1,6 +1,10 @@
 {
 	"name" : "Agar's Pets",
 	"description" : "2 New units - Agar's Pet and Terrible Eye. 1 New hero- Agar the Warlock.",
+	"czech" : {
+		"name" : "Agarovi mazlíčci",
+		"description" : "2 nové jednotky – Agarův mazlíček a Strašlivé oko. 1 nový hrdina – černokněžník Agar."
+	},
 	"author" : "Kurek",
 	"contact" : "http://www.forum.acidcave.net/profile.php?UID=4121  or  https://discord.com/channels/298106089885401090/298110850420441094",
 	"version" : "1.0",

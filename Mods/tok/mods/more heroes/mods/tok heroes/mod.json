@@ -1,6 +1,10 @@
 {
 	"name" : "More Tok Heroes",
 	"description" : "Add more heroes based on TOK additions",
+	"czech" : {
+		"name" : "Více ToK hrdinů",
+		"description" : "Přidává další hrdiny z balíčku ToK."
+	},
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
 	"version" : "1.4",

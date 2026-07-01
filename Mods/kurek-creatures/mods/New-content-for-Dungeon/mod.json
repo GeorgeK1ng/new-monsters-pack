@@ -2,6 +2,10 @@
 	"author" : "Kurek",
 	"contact" : "http://www.forum.acidcave.net/profile.php?UID=4121  or  https://discord.com/channels/298106089885401090/298110850420441094",
 	"description" : "Adds new Dungeon creatures",
+	"czech" : {
+		"name" : "Nový obsah pro Kobky",
+		"description" : "Přidává nové jednotky pro Kobky."
+	},
 	"modType" : "Creatures",
 	"name" : "New Content for Dungeon",
 	"version" : "1.0",
