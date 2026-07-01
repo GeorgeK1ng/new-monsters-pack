@@ -19,13 +19,42 @@ def find_mod_json_files(root: Path) -> list:
     )
 
 
+def iter_depends_values(data):
+    """Yield every depends value from a parsed mod manifest."""
+    if isinstance(data, dict):
+        for key, value in data.items():
+            if key == "depends":
+                yield value
+            yield from iter_depends_values(value)
+    elif isinstance(data, list):
+        for item in data:
+            yield from iter_depends_values(item)
+
+
+def normalize_dependency_ids(depends_value) -> set:
+    """Return package ids referenced by a depends value."""
+    if isinstance(depends_value, str):
+        return {depends_value.split(".")[0]}
+    if isinstance(depends_value, list):
+        return {dep.split(".")[0] for dep in depends_value if isinstance(dep, str)}
+    if isinstance(depends_value, dict):
+        return {dep.split(".")[0] for dep in depends_value if isinstance(dep, str)}
+    return set()
+
+
 def collect_dependencies(root: Path) -> set:
     deps = set()
-    for mod_file in find_mod_json_files(root):
+    mod_files = find_mod_json_files(root)
+    print(f"Scanning {len(mod_files)} mod.json file(s) under {root} ...")
+    for mod_file in mod_files:
         with open(mod_file) as f:
             data = jstyleson.load(f)
-        for dep in data.get("depends", []):
-            deps.add(dep.split(".")[0])
+        file_deps = set()
+        for depends_value in iter_depends_values(data):
+            file_deps.update(normalize_dependency_ids(depends_value))
+        if file_deps:
+            print(f"  {mod_file.relative_to(root)}: {', '.join(sorted(file_deps))}")
+        deps.update(file_deps)
     return deps
 
 
