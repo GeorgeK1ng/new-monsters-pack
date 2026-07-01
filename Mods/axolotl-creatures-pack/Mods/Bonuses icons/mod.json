@@ -1,6 +1,10 @@
 {
 	"name" : "Additional bonuses icons",
 	"description" : "Additional icons for creatures abilities.",
+	"czech" : {
+		"name" : "Ikony dodatečných bonusů",
+		"description" : "Dodatečné ikony pro schopnosti jednotek."
+	},
 	"version" : "1.0.0",
 	"author" : "Kurek",
 	"contact" : "",

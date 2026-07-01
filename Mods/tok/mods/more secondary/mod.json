@@ -1,6 +1,10 @@
 {
 	"name" : "More Skills",
-	"description" : "New secondary skills",
+	"description" : "New secondary skills: Warding, Endurance and Fame.",
+	"czech" : {
+		"name" : "Více schopností",
+		"description" : "Přidává nové druhotné schopnosti: Runovou ochranu, Vytrvalost a Slávu."
+	},
 	"author" : "Fiorin",
 	"contact" : "https://fior.in",
 	"version" : "1.0.0",
