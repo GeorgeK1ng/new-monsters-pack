@@ -12,49 +12,28 @@ from pathlib import Path
 
 
 def find_mod_json_files(root: Path) -> list:
-    """Find every mod.json below root (case-insensitive)."""
-    return sorted(
-        (path for path in root.rglob("*") if path.is_file() and path.name.lower() == "mod.json"),
-        key=lambda path: path.as_posix().lower(),
-    )
-
-
-def iter_depends_values(data):
-    """Yield every depends value from a parsed mod manifest."""
-    if isinstance(data, dict):
-        for key, value in data.items():
-            if key == "depends":
-                yield value
-            yield from iter_depends_values(value)
-    elif isinstance(data, list):
-        for item in data:
-            yield from iter_depends_values(item)
-
-
-def normalize_dependency_ids(depends_value) -> set:
-    """Return package ids referenced by a depends value."""
-    if isinstance(depends_value, str):
-        return {depends_value.split(".")[0]}
-    if isinstance(depends_value, list):
-        return {dep.split(".")[0] for dep in depends_value if isinstance(dep, str)}
-    if isinstance(depends_value, dict):
-        return {dep.split(".")[0] for dep in depends_value if isinstance(dep, str)}
-    return set()
+    """Find mod.json in root and in Mods/*/mod.json (case-insensitive)."""
+    results = []
+    for entry in root.iterdir():
+        if entry.is_file() and entry.name.lower() == "mod.json":
+            results.append(entry)
+    for entry in root.iterdir():
+        if entry.is_dir() and entry.name.lower() == "mods":
+            for subdir in entry.iterdir():
+                if subdir.is_dir():
+                    for f in subdir.iterdir():
+                        if f.is_file() and f.name.lower() == "mod.json":
+                            results.append(f)
+    return results
 
 
 def collect_dependencies(root: Path) -> set:
     deps = set()
-    mod_files = find_mod_json_files(root)
-    print(f"Scanning {len(mod_files)} mod.json file(s) under {root} ...")
-    for mod_file in mod_files:
+    for mod_file in find_mod_json_files(root):
         with open(mod_file) as f:
             data = jstyleson.load(f)
-        file_deps = set()
-        for depends_value in iter_depends_values(data):
-            file_deps.update(normalize_dependency_ids(depends_value))
-        if file_deps:
-            print(f"  {mod_file.relative_to(root)}: {', '.join(sorted(file_deps))}")
-        deps.update(file_deps)
+        for dep in data.get("depends", []):
+            deps.add(dep.split(".")[0])
     return deps
 
 
